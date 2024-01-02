@@ -3,6 +3,8 @@ FROM mcr.microsoft.com/devcontainers/base:jammy
 # android
 RUN sudo apt-get update
 RUN sudo apt-get install -y android-sdk
+RUN sudo apt-get install -y sdkmanager
+RUN yes | sudo sdkmanager --licenses
 
 # gradle
 RUN sudo apt-get install -y unzip zip
