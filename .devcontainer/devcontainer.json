@@ -26,6 +26,6 @@
 	// "remoteUser": "root"
 
 	"containerEnv": {
-		"ANDROID_HOME": "usr/lib/android-sdk/"
+		"ANDROID_HOME": "/usr/lib/android-sdk/"
 	}
 }
