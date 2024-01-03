@@ -4,8 +4,7 @@
 	"name": "Ubuntu",
 	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
 	// "build": { "dockerfile": "Dockerfile" },
-	"image": "popcorn-time-android-dev:latest",
-
+	"image": "greenestllama/popcorn-android-dev:latest",
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	// "features": {
 	// 	"ghcr.io/devcontainers-contrib/features/gradle-sdkman:2": {}

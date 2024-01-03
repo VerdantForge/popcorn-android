@@ -2,4 +2,4 @@
 
 set -e
 
-echo "sdk.dir=/usr/lib/android-sdk" > local.properties
+echo "sdk.dir=$ANDROID_HOME" > local.properties
